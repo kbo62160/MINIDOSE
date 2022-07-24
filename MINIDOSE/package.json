@@ -1,0 +1,9 @@
+{
+  "name": "minidose",
+  "version": "0.0.0",
+  "description": "MINIDOSE",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}

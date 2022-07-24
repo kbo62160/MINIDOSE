@@ -36,7 +36,7 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
             .then(response => response.json())
             .then(data => {
                 
-                for (i = 0; i < 9; i++) {
+                for (i = 0; i < 8; i++) {
                     var html = '';
                     html = '<div class="col-md-3 col-sm-6 col-xs-12" style="height:300px;">' +
                         '<div class="features-item">' +

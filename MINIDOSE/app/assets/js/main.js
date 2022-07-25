@@ -38,9 +38,9 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
                 
                 for (i = 0; i < 8; i++) {
                     var html = '';
-                    html = '<div class="col-md-3 col-sm-6 col-xs-12" style="height:300px;">' +
+                    html = '<div class="col-md-3 col-sm-6 col-xs-12">' +
                         '<div class="features-item">' +
-                        '<div class="features-icon"><a target="_blank" href="https://www.youtube.com/watch?v=' + data.items[i].snippet.resourceId.videoId+'"><img src="' + data.items[i].snippet.thumbnails.medium.url+'"/></a></div>' +
+                        '<div class="features-icon"><a target="_blank" href="https://www.youtube.com/watch?v=' + data.items[i].snippet.resourceId.videoId+'"><img width="100%" src="' + data.items[i].snippet.thumbnails.medium.url+'"/></a></div>' +
                         '<h3 class="features-title font-alt" style="color:white;">' + data.items[i].snippet.title + '<h3>' +
                         '<p></p>' +
                         '</div>' +

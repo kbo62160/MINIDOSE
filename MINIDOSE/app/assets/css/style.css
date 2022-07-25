@@ -68,12 +68,18 @@ html {
         background: url('../images/gif/spidercostard.jpg') no-repeat center top fixed !important;
         background-color: black !important;
     }
+    .module-subtitle {
+        text-align: justify;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     .spidycostard {
         background: url('../images/gif/spidercostard.jpg') no-repeat center top fixed !important;
         background-color: black !important;
+    }
+    .module-subtitle {
+        text-align: justify;
     }
 }
 
@@ -82,12 +88,18 @@ html {
         background: url('../images/gif/spidercostard.jpg') no-repeat left center fixed !important;
         background-color: black !important;
     }
+    .module-subtitle {
+        text-align: right;
+    }
 }
 
 @media (min-width: 1200px) {
     .spidycostard {
         background: url('../images/gif/spidercostard.jpg') no-repeat left center fixed !important;
         background-color: black !important;
+    }
+    .module-subtitle {
+        text-align: right;
     }
 }
     h1 {
@@ -1102,7 +1114,6 @@ html {
     }
 
     .module-subtitle {
-        text-align: right;
         font-size: 16px;
         color: #111;
         margin-bottom: 70px;
